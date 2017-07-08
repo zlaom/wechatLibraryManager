@@ -1,0 +1,19 @@
+<!--check.wxml-->
+<view class="container">
+<view class="title">{{bookTitle}}</view>
+<view class="block"></view>
+<view class="img">
+
+<image src="{{bookCover}}" mode="aspectFit"></image>
+</view>
+<view class="block"></view>
+
+<view class="user">用户：{{userId}}</view>
+<view class="action">操作：{{action}}</view>
+<view class="block"></view>
+
+<view class="checkButton">
+<button bindtap="check" class="check">确定</button>
+<button bindtap="cancel" class="cancel">取消</button>
+</view>
+</view>

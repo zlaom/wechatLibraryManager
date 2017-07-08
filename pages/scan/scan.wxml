@@ -1,0 +1,14 @@
+<!--scan.wxml-->
+<view class="container">
+ <!--当前微信用户信息-->
+ <view class="page_hd">
+    <view class="app_icon">
+      <Image src="{{userInfo.avatarUrl}}" background-size="cover"></Image>
+    </view>
+  </view>
+<view class="managerAccount">管理员： {{managerAccount}}</view>
+<view class="temp"></view>
+<view class="section">
+<button size="default" bindtap="scan">扫码</button>
+</view>
+</view>  

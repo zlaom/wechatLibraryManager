@@ -1,0 +1,40 @@
+/* check.wxss */
+.container{
+  padding-top: 50rpx;
+  padding-bottom: 30rpx;
+}
+.block{
+  height: 30rpx;
+}
+
+button{
+  margin: 10rpx;
+}
+
+.checkButton{
+  width: 500rpx;
+}
+
+.title{
+  color: #990066;
+  font-size: xx-large;
+}
+.action{
+  font-size: larger;
+  color: red;
+}
+.user{
+  font-size: large;
+  color: #666699;
+  padding-bottom: 10rpx;
+}
+
+.check{
+  color: white;
+  background-color: #009966;
+}
+
+.cancel{
+    color: white;
+  background-color: #666666;
+}

@@ -1,0 +1,25 @@
+<!--signup-->
+<view class="container">
+  <!--当前微信用户信息-->
+ <view class="page_hd">
+    <view class="app_icon">
+      <Image src="{{userInfo.avatarUrl}}" background-size="cover"></Image>
+    </view>
+  </view>
+  <!--表单包括账号和密码-->
+  <view>
+    <view class="section">
+      <input type="text" placeholder="账号" bindinput="bindAccount" auto-focus />
+    </view>
+    <view class="section">
+      <input type="password" placeholder="密码" bindinput="bindPassword" />
+    </view>
+    <view class="temp"></view>
+    <view class="section">
+      <view class="button">
+        <button type="text" ontap="signin">登录</button>
+      </view>
+    </view>
+    <view class="temp"></view>
+  </view>
+</view>

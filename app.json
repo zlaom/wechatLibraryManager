@@ -1,0 +1,14 @@
+{
+  "pages": [
+
+    "pages/signin/signin",
+    "pages/scan/scan",
+    "pages/check/check"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "LibraryManager",
+    "navigationBarTextStyle": "black"
+  }
+}
